@@ -3,11 +3,11 @@ using namespace std;
 
   int main(){
     
-    double temp[7];
-    double gradosFarenheight[7];
-    double mayor, promedio;
-    double menor = 1000;
-    double aux;
+    float temp[7];
+    float gradosFarenheight[7];
+    float mayor, promedio;
+    float menor = 1000;
+    float aux;
      for (int i = 0; i < 7; i++){
       cout<<"Introduce la temperatura del dia en grados celcius: "<<i + 1<<endl;
         cin>>temp[i];
@@ -40,7 +40,7 @@ using namespace std;
        cout<<gradosFarenheight[i]<<" ";
      }
      cout<<"\n==========Mayor, menor y promedio de temperaturas===============\n"<<endl;
-     cout.precision(2);
+     cout.precision(3);
      cout<<"La mayor temperatura registrada fue de: "<<mayor<<" grados celcius"<<endl;
      cout<<"La menor temperatura registrada fue de: "<<menor<<" grados celcius"<<endl;
      cout<<"El promedio de temperaturas en la semana fue de: "<<promedio<<" grados celcius"<<endl;
